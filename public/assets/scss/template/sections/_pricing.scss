@@ -58,7 +58,7 @@
         ;
         border-radius: 16px;
         border: 1px solid $border-color;
-        background: $white-color;
+        background: $black-color;
         z-index: 2;
         -webkit-border-radius: 16px;
         -moz-border-radius: 16px;
@@ -86,7 +86,7 @@
                 text-transform: capitalize;
                 margin-bottom: 25px;
                 border-radius: 8px;
-                background: $white-color;
+                background: $black-color;
                 -webkit-border-radius: 8px;
                 -moz-border-radius: 8px;
                 -ms-border-radius: 8px;
@@ -130,7 +130,7 @@
         max-width: 370px;
         max-height: 800px;
         border-radius: 16px;
-        background: $white-color;
+        background: $black-color;
         -webkit-border-radius: 16px;
         -moz-border-radius: 16px;
         -ms-border-radius: 16px;
@@ -199,7 +199,7 @@
             left: -5px;
             right: -5px;
             bottom: -5px;
-            background: linear-gradient(90deg, #384BFF 0%, #B42AF3 123.82%);
+            background: linear-gradient(90deg, var(--black-color) 0%, #B42AF3 123.82%);
             z-index: -1;
             border-radius: 15px;
         }

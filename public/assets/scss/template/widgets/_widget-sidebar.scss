@@ -26,7 +26,7 @@
                     height: 2px;
                     width: 83px;
                     content: "";
-                    background-color: $theme-color;
+                    background-color: $black-color;
                 }
             }
         }
@@ -37,7 +37,7 @@
                 position: relative;
 
                 input {
-                    background-color: $white-color;
+                    background-color: $black-color;
                     font-size: 15px;
                     padding: 20px;
                     width: 100%;
@@ -68,7 +68,7 @@
                     -o-border-radius: 8px;
 
                     &:hover {
-                        background: linear-gradient(90deg, #384BFF 0%, #B42AF3 123.82%);
+                        background: linear-gradient(90deg, var(--black-color) 0%, #B42AF3 123.82%);
 
                     }
                 }
@@ -81,7 +81,7 @@
                 list-style-type: none;
 
                 li {
-                    background-color: $white-color;
+                    background-color: $black-color;
                     font-weight: 500;
                     @include transition;
                     border-radius: 8px;
@@ -116,7 +116,7 @@
                     }
 
                     &:hover {
-                        background: linear-gradient(90deg, #384BFF 0%, #B42AF3 123.82%);
+                        background: linear-gradient(90deg, var(--black-color) 0%, #B42AF3 123.82%);
                         color: $white-color;
 
                         a {
@@ -130,7 +130,7 @@
 
 
                     &.active {
-                        background: linear-gradient(90deg, #384BFF 0%, #B42AF3 123.82%);
+                        background: linear-gradient(90deg, var(--black-color) 0%, #B42AF3 123.82%);
                         ;
 
                         a {
@@ -218,7 +218,7 @@
                 font-weight: 400;
                 line-height: 14px;
                 text-transform: capitalize;
-                background: $white-color;
+                background: $black-color;
                 margin-right: 5px;
                 margin-bottom: 10px;
                 border: none;
@@ -234,7 +234,7 @@
                 }
 
                 &:hover {
-                    background:  linear-gradient(90deg, #384BFF 0%, #B42AF3 123.82%);  
+                    background:  linear-gradient(90deg, var(--black-color) 0%, #B42AF3 123.82%);
                     color: $white-color !important;
                 }
             }

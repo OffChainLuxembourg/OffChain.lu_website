@@ -24,8 +24,8 @@ a {
   color: var(--theme-color2) !important;
 }
 .page-nav-wrap .active a {
-  background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%) !important;
-  color: var(--white-color) !important;
+  background: linear-gradient(90deg, var(--theme-color2) 0%, var(--theme-color2) 123.82%) !important;
+  color: var(--black-color) !important;
   border: 1px solid transparent !important;
 }
 .gt-mobile-menu {

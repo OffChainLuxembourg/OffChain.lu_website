@@ -7,7 +7,7 @@ export default function Services2() {
   return (
     <section
       className="service-area space mt-1 fix"
-      style={{ backgroundImage: `url(/assets/img/bg/serviceCardBg2_1.png)` }}
+      //style={{ backgroundImage: `url(/assets/img/bg/serviceCardBg2_1.png)` }}
     >
       <div className="container">
         <div className="title-area mx-auto">

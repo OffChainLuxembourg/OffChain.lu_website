@@ -27,7 +27,7 @@
             height: 10px;
             display: inline-block;
             border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.76);
+            background-color: $black-color;
             transition: background-color 0.3s;
             margin: 0 5px;
             -webkit-transition: background-color 0.3s;
@@ -36,7 +36,7 @@
             -o-transition: background-color 0.3s;
         }
         .swiper-pagination-bullet-active{ 
-            background-color: $white-color;
+            background-color: $black-color;
         }
         
     }

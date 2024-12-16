@@ -1,7 +1,7 @@
 export const slidesData = [
   {
     id: 1,
-    bgSrc: "/assets/img/hero/hero-bg1_1.png",
+   // bgSrc: "/assets/img/hero/hero-bg1_1.png",
     titleIconSrc: "/assets/img/icon/titleIconWhite.png",
     subtitle: "OffChain Luxembourg",
     title1: "Bridging the worlds of ",
@@ -10,7 +10,7 @@ export const slidesData = [
   },
   {
     id: 2,
-    bgSrc: "/assets/img/hero/hero-bg1_2.png",
+   // bgSrc: "/assets/img/hero/hero-bg1_2.png",
     titleIconSrc: "/assets/img/icon/titleIconWhite.png",
     subtitle: "BEST IT SOLUTION PROVIDER",
     title1: "IT Consulting Services",
@@ -19,7 +19,7 @@ export const slidesData = [
   },
   {
     id: 3,
-    bgSrc: "/assets/img/hero/hero-bg1_3.png",
+   // bgSrc: "/assets/img/hero/hero-bg1_3.png",
     titleIconSrc: "/assets/img/icon/titleIconWhite.png",
     subtitle: "BEST IT SOLUTION PROVIDER",
     title1: "IT Consulting Services",

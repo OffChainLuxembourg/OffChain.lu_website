@@ -10,7 +10,7 @@
                     &.style3 {
                         background-color: $theme-color;
                         border-radius: 16px;
-                        background: linear-gradient(180deg, #3D4AFF 0%, #9931F6 100%);
+                        background: linear-gradient(180deg, var(--black-color) 0%, #9931F6 100%);
                         -webkit-border-radius: 16px;
                         -moz-border-radius: 16px;
                         -ms-border-radius: 16px;

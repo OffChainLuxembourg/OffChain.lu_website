@@ -39,7 +39,7 @@
     form {
       padding: 40px 60px 61px 60px;
       border-radius: 16px 0px 0px 0px;
-      background: $white-color;
+      background: $black-color;
       box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
       -webkit-border-radius: 16px 0px 0px 0px;
       -moz-border-radius: 16px 0px 0px 0px;
@@ -168,7 +168,7 @@
   .contact-left-items {
     .contact-info-area-2 {
       padding: 40px 40px 10px;
-      background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
+      background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
       border-radius: 16px 16px 0px 0px;
       -webkit-border-radius: 16px 16px 0px 0px;
       -moz-border-radius: 16px 16px 0px 0px;
