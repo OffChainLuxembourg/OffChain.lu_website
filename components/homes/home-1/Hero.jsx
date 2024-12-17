@@ -17,10 +17,15 @@ export default function Hero() {
         {slidesData.map((slide) => (
           <SwiperSlide className="swiper-slide" key={slide.id}>
             <div className="hero-inner">
-              <div
+              <div className="gt-hero-bg">
+                <video autoPlay muted loop id="myVideo">
+                  <source src="/assets/videos/5074-182666828_small.mp4" type="video/mp4"/>
+                </video>
+              </div>
+              {/*<div
                 className="gt-hero-bg"
                 style={{ backgroundImage: `url(${slide.bgSrc})` }}
-              />
+              />*/}
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-xl-8">
@@ -79,7 +84,7 @@ export default function Hero() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <button data-slider-prev="#heroSlide1" className="slider-arrow style2">
+      {/* <button data-slider-prev="#heroSlide1" className="slider-arrow style2">
         <Image
           alt="img"
           src="/assets/img/icon/arrowLeft.png"
@@ -103,7 +108,7 @@ export default function Hero() {
           <i className="fal fa-long-arrow-left" />
           Scroll
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }
