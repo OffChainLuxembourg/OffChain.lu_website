@@ -34,7 +34,7 @@
 
     &:hover {
       color: $body-color;
-      background-color: $black-color;
+      background-color: #fff;
       border-color: transparent;
       border-color: transparent;
       transform: rotate(90deg);
@@ -62,7 +62,7 @@
       height: 70px;
       width: 100%;
       border: none;
-      background-color: $black-color;
+      background-color: $white-color;
       border: 2px solid $theme-color;
       padding: 0 80px 0 30px;
       color: $title-color;

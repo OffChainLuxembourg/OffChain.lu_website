@@ -14,7 +14,7 @@
         padding: 18px;
         text-align: center;
         border-radius: 50px;
-        background-color: $black-color;
+        background-color: $white-color;
         box-shadow: 0px 4px 25px 0px rgba(56, 75, 255, 0.08);
         -webkit-border-radius: 50px;
         -moz-border-radius: 50px;
@@ -57,7 +57,7 @@
     left: 25px;
     right: 25px;
     padding: 26px 30px;
-    background-color: $black-color;
+    background-color: $white-color;
     overflow: hidden;
     border-left: 4px solid $white-color;
     border-radius: 20px;
@@ -131,7 +131,7 @@
       -o-transition: background 0.4s ease;
 
       &:hover {
-        background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+        background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
       }
     }
 
@@ -139,7 +139,7 @@
       border-left: 4px solid $theme-color;
 
       .arrow-icon {
-        background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+        background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
       }
     }
   }
@@ -151,7 +151,7 @@
     padding: 10px 29px;
     gap: 8px;
     border-radius: 5000px;
-    background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+    background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
     -webkit-border-radius: 5000px;
     -moz-border-radius: 5000px;
     -ms-border-radius: 5000px;
@@ -234,7 +234,7 @@
     max-width: 222px;
     border-radius: 8px;
     border-left: 2px solid $theme-color;
-    background: $black-color;
+    background: $white-color;
     box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -450,7 +450,7 @@
     height: 36px;
     line-height: 36px;
     text-align: center;
-    background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+    background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
     color: $white-color;
     margin-right: 5px;
     border: 1px solid #ffffffcc;
@@ -484,7 +484,7 @@
       -o-transition: 0.4s ease-in-out;
 
       &:hover {
-        background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+        background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
         color: $white-color;
         border: 1px solid $title-color;
       }
@@ -602,7 +602,7 @@
     border: none;
     border-radius: 8px;
     border-radius: 8px;
-    background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+    background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
     color: $white-color;
     cursor: pointer;
     outline: none;
@@ -636,7 +636,7 @@
         -o-border-radius: 5px;
 
         &.current {
-          background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+          background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
           color: $white-color;
         }
 
@@ -664,7 +664,7 @@
         }
 
         &:hover {
-          background: linear-gradient(90deg, var(--black-color) 0%, #b42af3 123.82%);
+          background: linear-gradient(90deg, #384bff 0%, #b42af3 123.82%);
           color: $white-color;
           border: 1px solid transparent;
         }

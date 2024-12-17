@@ -55,7 +55,7 @@ export const services2 = [
     icon: "/assets/img/icon/serviceIcon1_1.png",
     title: "Data Analytics",
     description: "Data analytics involves examining raw data.",
-   // bgImage: "/assets/img/bg/serviceCardThumbBg1_1.png",
+    bgImage: "/assets/img/bg/serviceCardThumbBg1_1.png",
     delay: ".2s",
   },
   {
@@ -63,7 +63,7 @@ export const services2 = [
     icon: "/assets/img/icon/serviceIcon1_2.png",
     title: "UI/UX Design",
     description: "UI/UX design is a crucial aspect of",
-   // bgImage: "/assets/img/bg/serviceCardThumbBg1_1.png",
+    bgImage: "/assets/img/bg/serviceCardThumbBg1_1.png",
     delay: ".4s",
   },
   {
@@ -71,7 +71,7 @@ export const services2 = [
     icon: "/assets/img/icon/serviceIcon1_3.png",
     title: "Cybersecurity",
     description: "Cybersecurity is the practice of protecting",
-   // bgImage: "/assets/img/bg/serviceCardThumbBg1_1.png",
+    bgImage: "/assets/img/bg/serviceCardThumbBg1_1.png",
     delay: ".6s",
   },
   {

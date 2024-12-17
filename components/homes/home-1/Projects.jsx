@@ -27,7 +27,7 @@ export default function Projects() {
     <section className="project-area">
       <div
         className="project-wrap style1 space fix"
-        //style={{ backgroundImage: "url(/assets/img/bg/portfolioBg1_1.png)" }}
+        style={{ backgroundImage: "url(/assets/img/bg/portfolioBg1_1.png)" }}
       >
         <div className="container">
           <div className="title-wrap mb-50">
