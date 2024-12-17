@@ -8,8 +8,8 @@ import Link from "next/link";
 import { allProjects } from "@/data/projects";
 export const metadata = {
   title:
-    "Project Details || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+    "Project Details || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Page({ params }) {
   const projectItem =

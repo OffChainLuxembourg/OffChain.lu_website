@@ -7,8 +7,8 @@ import NotFound from "@/components/otherPages/NotFound";
 import Link from "next/link";
 export const metadata = {
   title:
-    "Page Not Found || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+    "Page Not Found || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Page() {
   return (

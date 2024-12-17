@@ -6,8 +6,8 @@ import Cta from "@/components/common/Cta";
 import Team1 from "@/components/otherPages/team/Team1";
 import Link from "next/link";
 export const metadata = {
-  title: "Team 1 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Team 1 || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Page() {
   return (

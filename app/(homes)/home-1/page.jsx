@@ -16,8 +16,8 @@ import Team from "@/components/homes/home-1/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import VideoBox from "@/components/homes/home-1/VideoBox";
 export const metadata = {
-  title: "Home 1 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Home || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Home1() {
   return (
