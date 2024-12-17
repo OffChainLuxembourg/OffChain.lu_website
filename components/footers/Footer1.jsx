@@ -85,8 +85,7 @@ export default function Footer1() {
                       </Link>
                     </div>
                     <p className="about-text">
-                      TechBe IT is a dynamic and innovative technology company
-                      dedicated to solutions.
+                      Bridging the worlds of blockchain and law
                     </p>
                     <div className="gt-social style2">
                       {socialLinks2.map((link, index) => (
@@ -123,7 +122,7 @@ export default function Footer1() {
                   className="widget footer-widget wow fadeInUp"
                   data-wow-delay="1.3s"
                 >
-                  <h3 className="widget_title">Recent Posts</h3>
+                  {/* <h3 className="widget_title">Recent Posts</h3>
                   <div className="recent-post-wrap">
                     {recentPosts.map((post) => (
                       <div className="recent-post" key={post.id}>
@@ -162,7 +161,7 @@ export default function Footer1() {
                         </div>
                       </div>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-xl-3 col-md-6 col-12">
@@ -176,13 +175,13 @@ export default function Footer1() {
                       <li className="text-white">
                         <i className="fa-thin fa-envelope" />
                       </li>
-                      <li className="text-white">info@example.com</li>
+                      <li className="text-white">info@offchain.lu</li>
                     </ul>
                     <ul className="ps-0">
                       <li className="text-white">
                         <i className="fa-light fa-phone-volume" />
                       </li>
-                      <li className="text-white">+208-6666-0112</li>
+                      <li className="text-white">+352-691-652147</li>
                     </ul>
                     <form
                       ref={form}
@@ -229,13 +228,13 @@ export default function Footer1() {
           <div className="copyright-layout">
             <div className="layout-text wow fadeInUp" data-wow-delay=".3s">
               <p className="copyright">
-                <i className="fal fa-copyright" /> All Copyright 2024 by
+                <i className="fal fa-copyright" /> All Copyright 2024 by {" "}
                 <Link scroll={false} href={`/`}>
-                  Techbe
+                  Offchain Luxembourg
                 </Link>
               </p>
             </div>
-            <div className="layout-link wow fadeInUp" data-wow-delay=".6s">
+            {/*<div className="layout-link wow fadeInUp" data-wow-delay=".6s">
               <div className="link-wrapper">
                 <Link scroll={false} href={`/home-3`}>
                   Terms &amp; Condition{" "}
@@ -244,7 +243,7 @@ export default function Footer1() {
                   Privacy Policy
                 </Link>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>

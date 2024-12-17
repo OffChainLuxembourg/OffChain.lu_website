@@ -10,7 +10,7 @@ export default function Cta() {
     >
       <div className="container">
         <div className="cta-wrap style1">
-          <div className="shape1_1 rotate360 d-none d-xl-block">
+          {/* <div className="shape1_1 rotate360 d-none d-xl-block">
             <img
               alt="shape"
               width={80}
@@ -41,7 +41,7 @@ export default function Cta() {
               width="393"
               height="357"
             />
-          </div>
+          </div> */}
           <h3
             className="cta-title text-white wow fadeInUp"
             data-wow-delay=".3s"
