@@ -4,7 +4,7 @@ import "../public/assets/scss/styles.scss";
 import { useEffect } from "react";
 import SiteMenu from "@/components/headers/SiteMenu";
 import ScrollTop from "@/components/common/ScrollTop";
-import CursorFollor from "@/components/common/CursorFollor";
+// import CursorFollor from "@/components/common/CursorFollor";
 import { usePathname } from "next/navigation";
 import { ToastContainer } from "react-toastify";
 import PopupSearch from "@/components/headers/PopupSearch";
@@ -69,7 +69,7 @@ export default function RootLayout({ children }) {
           pauseOnHover
         />
         {children}
-        <CursorFollor />
+        {/* <CursorFollor /> */}
         <ScrollTop />
       </body>
     </html>

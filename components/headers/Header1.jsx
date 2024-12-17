@@ -60,7 +60,7 @@ export default function Header1() {
                   >
                     GET IN TOUCH
                   </Link>
-                  <button
+                  {/* <button
                     type="button"
                     onClick={activeSideMenu}
                     className="simple-icon sideMenuInfo sidebar-btn"
@@ -68,7 +68,7 @@ export default function Header1() {
                     <span className="line" />
                     <span className="line" />
                     <span className="line" />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

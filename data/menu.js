@@ -1,24 +1,28 @@
 export const menuItems = [
   {
+    title: "About Us",
+    href: "/about",
+  },
+  {
+    title: "Our project",
+    href: "/service-1",
+  },
+  {
+    title: "Join us",
+    href: "/project",
+  },
+  {
+    title: "Contact Us",
+    href: "/contact",
+  },
+  /*
+  {
     title: "Home",
     href: "#",
     subMenu: [
       { title: "Home One", href: "/" },
       { title: "Home Two", href: "/home-2" },
       { title: "Home Three", href: "/home-3" },
-    ],
-  },
-  {
-    title: "About Us",
-    href: "/about",
-  },
-  {
-    title: "Services",
-    href: "/#",
-    subMenu: [
-      { title: "Services One", href: "/service-1" },
-      { title: "Services Two", href: "/service-2" },
-      { title: "Service Details", href: "/service-details/1" },
     ],
   },
   {
@@ -56,8 +60,5 @@ export const menuItems = [
       { title: "Blog Details", href: "/blog-details/2" },
     ],
   },
-  {
-    title: "Contact Us",
-    href: "/contact",
-  },
+  */
 ];
