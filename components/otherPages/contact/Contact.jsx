@@ -74,9 +74,9 @@ export default function Contact() {
                         </svg>
                       </div>
                       <div className="content">
-                        <p>Call Us 7/24</p>
+                        <p>Call Us</p>
                         <h3>
-                          <a href="tel:+2085550112">+208-555-0112</a>
+                          <a href="tel:+352691652147">+352-691-652147</a>
                         </h3>
                       </div>
                     </div>
@@ -104,10 +104,10 @@ export default function Contact() {
                         </svg>
                       </div>
                       <div className="content">
-                        <p>Make a Quote</p>
+                        <p>Contact us</p>
                         <h3>
-                          <a href="mailto:infotech@gmail.com">
-                            Infotech@gmail.com
+                          <a href="mailto:info@offchain.lu">
+                            info@offchain.lu
                           </a>
                         </h3>
                       </div>
@@ -137,10 +137,11 @@ export default function Contact() {
                       </div>
                       <div className="content">
                         <p>Location</p>
-                        <h3>4517 Washington ave.</h3>
+                        <h3>Luxembourg</h3>
                       </div>
                     </div>
                   </div>
+                  {/*
                   <div className="video-image">
                     <Image
                       alt="img"
@@ -155,6 +156,7 @@ export default function Contact() {
                       <i className="fa-sharp fa-solid fa-play" />
                     </a>
                   </div>
+                  */}
                 </div>
               </div>
               <div className="col-lg-6">
@@ -184,9 +186,6 @@ export default function Contact() {
                     </h5>
                     <h2 className="title mb-50">Ready to Get Started?</h2>
                     <p>
-                      Nullam varius, erat quis iaculis dictum, eros urna varius
-                      eros, ut blandit felis odio in turpis. Quisque rhoncus,
-                      eros in auctor ultrices,
                     </p>
                   </div>
                   <form

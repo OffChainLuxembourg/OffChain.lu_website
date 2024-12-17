@@ -53,13 +53,13 @@ export default function Header1() {
                   >
                     <i className="far fa-search" />
                   </button>
-                  <Link
-                    scroll={false}
-                    href={`/contact`}
+                  <a
+                    href={`https://offchain-luxembourg.gitbook.io/whitepaper`}
+                    target="_blank"
                     className="gt-btn gt-btn-icon"
                   >
-                    GET IN TOUCH
-                  </Link>
+                    WHITEPAPER
+                  </a>
                   {/* <button
                     type="button"
                     onClick={activeSideMenu}
