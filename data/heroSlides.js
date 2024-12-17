@@ -8,7 +8,7 @@ export const slidesData = [
     title2: "blockchain and law",
     text: "Exploring the new organizational paradigm of a Decentralized Human Organization",
   },
-  {
+  /* {
     id: 2,
    // bgSrc: "/assets/img/hero/hero-bg1_2.png",
     titleIconSrc: "/assets/img/icon/titleIconWhite.png",
@@ -25,7 +25,7 @@ export const slidesData = [
     title1: "IT Consulting Services",
     title2: "For Your Business",
     text: "Professionally optimize interdependent intellectual interoperable connect best practices. Progressively fabricate done",
-  },
+  }, */
 ];
 
 export const slides = [
