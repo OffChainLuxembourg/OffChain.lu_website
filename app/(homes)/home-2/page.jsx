@@ -17,8 +17,8 @@ import TextSlider from "@/components/homes/home-2/TextSlider";
 import VideoBox from "@/components/homes/home-2/VideoBox";
 import React from "react";
 export const metadata = {
-  title: "Home 2 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Home 2 || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function page() {
   return (

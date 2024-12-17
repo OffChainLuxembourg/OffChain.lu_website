@@ -8,8 +8,8 @@ import Link from "next/link";
 import { allTeammembers } from "@/data/team";
 export const metadata = {
   title:
-    "Team Details || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+    "Team Details || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Page({ params }) {
   const teamMember =

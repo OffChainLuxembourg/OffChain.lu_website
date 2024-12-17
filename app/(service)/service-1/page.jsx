@@ -9,8 +9,8 @@ import VideoBox from "@/components/homes/home-2/VideoBox";
 import Team from "@/components/homes/home-1/Team";
 import Link from "next/link";
 export const metadata = {
-  title: "Service 1 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Service 1 || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Page() {
   return (

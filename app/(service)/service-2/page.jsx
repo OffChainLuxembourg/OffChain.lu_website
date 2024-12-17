@@ -10,8 +10,8 @@ import Pricing from "@/components/homes/home-3/Pricing";
 import Services2 from "@/components/otherPages/service/Services2";
 import Link from "next/link";
 export const metadata = {
-  title: "Service 2 || Techbe-IT Solution & Technology Service Nextjs Template",
-  description: "Techbe-IT Solution & Technology Service Nextjs Template",
+  title: "Service 2 || Offchain Luxembourg",
+  description: "Offchain Luxembourg",
 };
 export default function Page() {
   return (
