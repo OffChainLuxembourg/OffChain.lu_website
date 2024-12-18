@@ -19,8 +19,8 @@ export default function Header1() {
                   <Link scroll={false} href={`/`}>
                     <Image
                       src="/assets/img/logo-white.png"
-                      width={199}
-                      height={42}
+                      width={250}
+                      height={50}
                       alt="techo"
                     />
                   </Link>
