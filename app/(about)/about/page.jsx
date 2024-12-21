@@ -50,12 +50,12 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <About />
-        <Offering />
-        <VideoBox />
+        {/* <About /> */}
+        {/* <Offering /> */}
+        {/* <VideoBox /> */}
         <Team />
         <AboutCta />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <div className="pb-300"></div>
 
         <Cta />

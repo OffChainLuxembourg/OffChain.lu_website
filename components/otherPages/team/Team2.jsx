@@ -1,4 +1,4 @@
-import { teamMembers4 } from "@/data/team";
+import { teamMembers } from "@/data/team";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,7 +9,7 @@ export default function Team2() {
       <div className="team-wrap style2 space-top pb-425 fix">
         <div className="container">
           <div className="row">
-            {teamMembers4.map((member, index) => (
+            {teamMembers.map((member, index) => (
               <div key={index} className="col-xl-3 col-md-6 col-12">
                 <div
                   className="team-card style2 mb-30 wow fadeInUp"

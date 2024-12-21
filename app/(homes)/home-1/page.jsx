@@ -12,7 +12,7 @@ import Process from "@/components/homes/home-1/Process";
 import Projects from "@/components/homes/home-1/Projects";
 import Services from "@/components/homes/home-1/Services";
 import Services2 from "@/components/homes/home-1/Services2";
-import Team from "@/components/homes/home-1/Team";
+import Team from "@/components/homes/home-2/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import VideoBox from "@/components/homes/home-1/VideoBox";
 export const metadata = {
@@ -30,14 +30,14 @@ export default function Home1() {
         <About />
         <Services2 />
         <Offering />
-        <VideoBox />
         <Team />
-        <Projects />
-        <Process />
-        <Facts />
-        <Pricing />
-        <Testimonials />
-        <Blog />
+        {/* <VideoBox /> */}
+        {/* <Projects /> */}
+        {/* <Process /> */}
+        {/* <Facts /> */}
+        {/* <Pricing /> */}
+        {/* <Testimonials /> */}
+        {/* <Blog /> */}
         <Cta />
       </main>
       <Footer1 />
