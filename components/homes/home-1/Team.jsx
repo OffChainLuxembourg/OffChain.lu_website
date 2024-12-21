@@ -1,4 +1,4 @@
-import { teamMembers2 } from "@/data/team";
+import { teamMembers } from "@/data/team";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -55,7 +55,7 @@ export default function Team() {
             </h2>
           </div>
           <div className="row team-card-wrapper style1">
-            {teamMembers2.map((member, index) => (
+            {teamMembers.map((member, index) => (
               <div
                 className="team-card style1 wow fadeInUp"
                 data-wow-delay={member.delay}

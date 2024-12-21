@@ -1,4 +1,4 @@
-import { teamMembers3 } from "@/data/team";
+import { teamMembers } from "@/data/team";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,7 +9,7 @@ export default function Team1() {
       <div className="team-wrap style1 space-top mb-10">
         <div className="container">
           <div className="row team-card-wrapper style1">
-            {teamMembers3.slice(0, 3).map((member, index) => (
+            {teamMembers.slice(0, 3).map((member, index) => (
               <div
                 key={index}
                 className="team-card style1 wow fadeInUp"
@@ -42,7 +42,7 @@ export default function Team1() {
       <div className="team-wrap style1 space-top mt-55">
         <div className="container">
           <div className="row team-card-wrapper style1">
-            {teamMembers3.slice(3, 6).map((member, index) => (
+            {teamMembers.slice(3, 6).map((member, index) => (
               <div
                 key={index}
                 className="team-card style1 wow fadeInUp"
