@@ -19,7 +19,7 @@ export default function Hero() {
             <div className="hero-inner">
               <div className="gt-hero-bg">
                 <video autoPlay muted loop id="myVideo">
-                  <source src="/assets/videos/5074-182666828_small.mp4" type="video/mp4"/>
+                  <source src="/assets/videos/halogalandsbrua_small.mp4" type="video/mp4"/>
                 </video>
               </div>
               {/*<div
@@ -74,7 +74,7 @@ export default function Hero() {
                         data-ani="slideinup"
                         data-ani-delay="0.6s"
                       >
-                        EXPLORE MORE
+                        CONTRIBUTE
                       </Link>
                     </div>
                   </div>
