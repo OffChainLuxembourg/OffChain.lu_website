@@ -5,7 +5,7 @@ import HeaderTop from "@/components/headers/HeaderTop";
 import Cta from "@/components/common/Cta";
 import TeamDetails from "@/components/otherPages/team/TeamDetails";
 import Link from "next/link";
-import { allTeammembers } from "@/data/team";
+import { teamMembers } from "@/data/team";
 export const metadata = {
   title:
     "Team Details || Offchain Luxembourg",
@@ -13,7 +13,7 @@ export const metadata = {
 };
 export default function Page({ params }) {
   const teamMember =
-    allTeammembers.filter((elm) => elm.id == params.id)[0] || allTeammembers[0];
+    teamMembers.filter((elm) => elm.id == params.id)[0] || teamMembers[0];
   return (
     <>
       <HeaderTop />
